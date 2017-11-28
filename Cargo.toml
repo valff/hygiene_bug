@@ -1,0 +1,10 @@
+[workspace]
+members = ["sub_crate"]
+
+[package]
+name = "hygiene_bug"
+version = "0.1.0"
+authors = ["Valentine Valyaeff <valentine.valyaeff@gmail.com>"]
+
+[dependencies.sub_crate]
+path = "sub_crate"

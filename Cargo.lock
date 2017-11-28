@@ -1,0 +1,11 @@
+[[package]]
+name = "hygiene_bug"
+version = "0.1.0"
+dependencies = [
+ "sub_crate 0.1.0",
+]
+
+[[package]]
+name = "sub_crate"
+version = "0.1.0"
+
